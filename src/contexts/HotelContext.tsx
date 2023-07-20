@@ -67,8 +67,8 @@ export const HotelsAPIProvider = ({
 				: reservationsData
 		);
 		return () => {
-			// window.sessionStorage.removeItem("hotels");
-			// window.sessionStorage.removeItem("reservations");
+			window.sessionStorage.removeItem("hotels");
+			window.sessionStorage.removeItem("reservations");
 		};
 	}, []);
 
