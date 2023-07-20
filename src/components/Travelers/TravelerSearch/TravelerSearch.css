@@ -1,0 +1,31 @@
+.hotel-list {
+	list-style: none;
+	padding: 0;
+}
+.hotel-list>li {
+    margin-top: 1rem;
+}
+.hotel-name {
+	font-style: italic;
+}
+
+.room-list {
+	list-style: none;
+	padding: 0;
+}
+
+.room-card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+.traveler-search-results * .main-info h2 div {
+	width: max-content;
+	margin: 0 auto;
+}
+.traveler-search-results * .main-info h2 div span:first-child {
+	display: none;
+}

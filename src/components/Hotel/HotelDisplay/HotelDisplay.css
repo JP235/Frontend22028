@@ -1,0 +1,19 @@
+.hotel.dialog.display {
+	grid-template-rows: 3rem calc(100% - 3rem);
+}
+.hotel-display-info {
+	position: relative;
+	display: grid;
+}
+.main-info {
+	position: relative;
+}
+.main-info h2 div {
+	display: flex;
+	justify-content: center;
+    gap: 1rem;
+}
+.main-info h2 div span {
+	text-align: left;
+    min-width: 30%;
+}

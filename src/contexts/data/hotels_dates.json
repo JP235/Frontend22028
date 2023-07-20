@@ -1,0 +1,32 @@
+[
+	{
+		"hotelId": 1,
+		"rooms": [
+			{
+				"room_id": 101,
+				"reservations": [
+					{
+						"reservation_id": 2,
+						"checkInDate": "2023-01-01",
+						"checkOutDate": "2023-01-05"
+					}
+				]
+			}
+		]
+	},
+	{
+		"hotelId": 2,
+		"rooms": [
+			{
+				"room_id": 201,
+				"reservations": [
+					{
+						"reservation_id": 2,
+						"checkInDate": "2023-02-01",
+						"checkOutDate": "2023-02-07"
+					}
+				]
+			}
+		]
+	}
+]

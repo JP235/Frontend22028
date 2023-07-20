@@ -1,0 +1,53 @@
+.dialog.traveler {
+	top: 3rem
+}
+
+.traveler {
+	/* position: relative; */
+	width: 90%;
+	max-width: 850px;
+}
+.search-form-container h1 {
+	text-shadow: none;
+}
+.search-form-container {
+	padding: 1rem;
+	background-color: #7e7d7d;
+	border-radius: 4px;
+	font-size: large;
+}
+
+.traveler form {
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: fit-content;
+	max-width: 400px;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.traveler form label {
+	width: 100%;
+	font-weight: bold;
+	margin-top: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.traveler input,
+.traveler select {
+	width: max-content;
+	padding: 0.5rem;
+	margin-top: 0.5rem;
+	text-align: right;
+}
+.traveler input {
+	width: 40%;
+}
+.traveler button[type="submit"] {
+	margin-top: 1rem;
+	padding: 0.5rem 1rem;
+}

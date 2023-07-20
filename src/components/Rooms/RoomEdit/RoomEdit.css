@@ -1,0 +1,20 @@
+.room-edit {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.room-edit form {
+	height: 100%;
+}
+
+.room:not(:has(.room-display-header)) input {
+	width: 50%;
+}
+.new-room {
+	padding: 1rem;
+}
+.room-display-header h2 button {
+	margin-left: 1rem;
+	font-size: medium;
+    background-color: red;
+}

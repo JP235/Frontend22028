@@ -1,0 +1,29 @@
+.dialog {
+	max-width: min(750px, 95vw);
+	display: grid;
+	justify-items: center;
+    padding: min(1vw, 2rem);
+}
+.hotel-create-form label,
+.hotel-edit-form > label {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: left;
+}
+.hotel-create-form label span,
+.hotel-edit-form > label span {
+	width: 30%;
+}
+.hotel-create-form label input,
+.hotel-edit-form > label input {
+	text-align: right;
+	padding: 0.2rem;
+	font-size: large;
+	width: 50%;
+}
+.main-info {
+	padding: 1em;
+	background-color: #0000002f;
+	border-radius: 10px 10px 0 0;
+}

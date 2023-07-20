@@ -1,0 +1,99 @@
+[
+	{
+		"id": 1,
+		"name": "Hotel Plaza",
+		"location": "New York, NY",
+		"active": true,
+		"rooms": [
+			{
+				"id": 101,
+				"occupants": 1,
+				"active": true,
+				"initial_price": 100,
+				"tax": 10,
+				"final_price": 110,
+				"hotelId": 1
+			},
+			{
+				"id": 102,
+				"occupants": 2,
+				"active": false,
+				"initial_price": 150,
+				"tax": 15,
+				"final_price": 165,
+				"hotelId": 1
+			},
+			{
+				"id": 103,
+				"occupants": 1,
+				"active": true,
+				"initial_price": 100,
+				"tax": 10,
+				"final_price": 110,
+				"hotelId": 1
+			},
+			{
+				"id": 104,
+				"occupants": 1,
+				"active": true,
+				"initial_price": 100,
+				"tax": 10,
+				"final_price": 110,
+				"hotelId": 1
+			},
+			{
+				"id": 105,
+				"occupants": 1,
+				"active": true,
+				"initial_price": 100,
+				"tax": 10,
+				"final_price": 110,
+				"hotelId": 1
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Beach Resort",
+		"location": "Miami, FL",
+		"active": true,
+		"rooms": [
+			{
+				"id": 101,
+				"occupants": 1,
+				"active": true,
+				"initial_price": 120,
+				"tax": 12,
+				"final_price": 132,
+				"hotelId": 2
+			},
+			{
+				"id": 201,
+				"occupants": 2,
+				"active": true,
+				"initial_price": 180,
+				"tax": 18,
+				"final_price": 192,
+				"hotelId": 2
+			},
+			{
+				"id": 301,
+				"occupants": 3,
+				"active": true,
+				"initial_price": 250,
+				"tax": 25,
+				"final_price": 275,
+				"hotelId": 2
+			},
+			{
+				"id": 401,
+				"occupants": 4,
+				"active": true,
+				"initial_price": 400,
+				"tax": 40,
+				"final_price": 440,
+				"hotelId": 2
+			}
+		]
+	}
+]

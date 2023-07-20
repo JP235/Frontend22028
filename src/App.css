@@ -1,0 +1,29 @@
+#root {
+	position: relative;
+	max-width: 1280px;
+	height: 100vh;
+	margin: 0 auto;
+	text-align: center;
+}
+.App {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	padding: 2rem 0;
+	height: calc(100vh - 4rem);
+	width: 100%;
+}
+
+input::-webkit-input-placeholder {
+	display: none !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+input[type="number"] {
+	-moz-appearance: textfield;
+}

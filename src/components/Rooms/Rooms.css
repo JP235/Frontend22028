@@ -1,0 +1,47 @@
+.rooms-display-container {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	overflow-y: scroll;
+	border-radius: 0 0 10px 10px;
+}
+.rooms-display-container > h2 {
+	position: sticky;
+	top: 0;
+	margin: 0;
+	padding: 1rem;
+	background-color: #7e7d7d;
+}
+
+.rooms-display {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	/* grid-template-columns: 1fr 1fr; */
+	background-color: rgb(55, 55, 55);
+	justify-content: center;
+	padding-block-end: 2rem;
+	padding-block-start: 1rem;
+}
+.room-display {
+	display: flex;
+	flex-direction: column;
+}
+.room {
+	width: 100%;
+	max-width: 300px;
+	padding: 0 1rem;
+	border-radius: 4px;
+	margin: 4px 2px;
+	border: 1px solid white;
+}
+.room-content {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr 1fr;
+}
+
+.room-column input {
+	width: 80%;
+	text-align: center;
+}

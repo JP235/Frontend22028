@@ -1,0 +1,9 @@
+.dialog.traveler.reservation form {
+	padding-bottom: 1rem;
+}
+.traveler .dialog.traveler.reservation form label {
+    margin-top: 0.5rem;
+}
+.dialog.traveler.reservation p {
+    margin: 0.5rem;
+}

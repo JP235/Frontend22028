@@ -1,0 +1,23 @@
+.hotel.dialog.edit {
+	grid-template-rows: 3rem auto 3rem 1fr;
+	gap: 0.5rem;
+}
+.hotel.dialog.edit:has(.new-room) {
+	grid-template-rows: 1fr 1fr auto;
+}
+.new-room-button {
+	justify-self: center;
+	align-self: center;
+}
+h2:has(.hotel-edit-form) {
+	margin: 0;
+}
+.hotel-edit-form {
+	padding: 2rem;
+	background-color: #0000002f;
+	border-radius: 5px;
+}
+
+.hotel-edit-form input {
+	height: 1.5rem;
+}

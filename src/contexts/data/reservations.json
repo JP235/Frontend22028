@@ -1,0 +1,78 @@
+[
+	{
+		"id": 1,
+		"hotelId": 1,
+		"roomId": 101,
+		"checkInDate": "2023-11-11",
+		"checkOutDate": "2023-12-12",
+		"guestData": {
+			"firstName": "John",
+			"lastName": "Smith",
+			"birthDate": "1990-01-01",
+			"gender": "Male",
+			"documentType": "Passport",
+			"documentNumber": "AB123456",
+			"email": "john.Smith@example.com",
+			"phone": "+1 (123) 456-7890",
+			"emergencyContactName": "Jane Doe",
+			"emergencyContactPhone": "+1 (123) 555-9876"
+		}
+	},
+	{
+		"id": 2,
+		"hotelId": 2,
+		"roomId": 201,
+		"checkInDate": "2023-07-23",
+		"checkOutDate": "2023-07-25",
+		"guestData": {
+			"firstName": "Jane",
+			"lastName": "Doe",
+			"birthDate": "1992-02-02",
+			"gender": "Female",
+			"documentType": "CC",
+			"documentNumber": "987654321",
+			"email": "Jane.doe@example.com",
+			"phone": "+1 (123) 555-9876",
+			"emergencyContactName": "John Smith",
+			"emergencyContactPhone": "+1 (123) 456-7890"
+		}
+	},
+	{
+		"id": 3,
+		"hotelId": 2,
+		"roomId": 401,
+		"checkInDate": "2023-08-08",
+		"checkOutDate": "2023-09-09",
+		"guestData": {
+			"firstName": "Jane",
+			"lastName": "Doe",
+			"birthDate": "1992-02-02",
+			"gender": "Female",
+			"documentType": "CC",
+			"documentNumber": "987654321",
+			"email": "Jane.doe@example.com",
+			"phone": "+1 (123) 555-9876",
+			"emergencyContactName": "John Smith",
+			"emergencyContactPhone": "+1 (123) 456-7890"
+		}
+	},
+	{
+		"id": 4,
+		"hotelId": 1,
+		"roomId": 101,
+		"checkInDate": "2023-08-01",
+		"checkOutDate": "2023-08-07",
+		"guestData": {
+			"firstName": "Papa",
+			"lastName": "Johns",
+			"birthDate": "1992-02-02",
+			"gender": "Female",
+			"documentType": "CC",
+			"documentNumber": "987654321",
+			"email": "Jane.doe@example.com",
+			"phone": "+1 (123) 555-9876",
+			"emergencyContactName": "John Smith",
+			"emergencyContactPhone": "+1 (123) 456-7890"
+		}
+	}
+]

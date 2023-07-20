@@ -1,0 +1,78 @@
+.hotel.reservations {
+    min-width: 60%;
+
+}
+.hotel-reservations-header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 3rem;
+    width: 100%;
+	background-color: rgb(55, 55, 55);
+	border-radius: 3px 3px 0 0;
+}
+.hotel.reservations table {
+	border-collapse: collapse;
+	width: 100%;
+	padding: 2rem 0;
+}
+
+.hotel.reservations th,
+.hotel.reservations td {
+	text-align: left;
+	padding: 8px;
+	text-align: center;
+	width: 25%;
+}
+
+tr:has(.room-id) {
+	border-radius: 10px 10px 0 0;
+	overflow: hidden;
+	height: 3rem;
+	font-size: large;
+	font-weight: 500;
+	border-top: 1px solid white;
+}
+.reservation-row {
+	border-top: 1px solid white;
+}
+
+.hotel.reservations tr.even {
+	background-color: rgb(99, 99, 99);
+}
+.hotel.reservations tr.odd {
+	background-color: rgb(79, 79, 79);
+}
+
+.hotel.reservations thead th {
+	position: sticky;
+	top: 0;
+	background-color: rgb(30, 30, 30);
+	color: rgb(217, 217, 217);
+	height: 2.5rem;
+	font-size: large;
+}
+
+.hotel.reservations tbody tr td.room-id {
+	border-radius: 3px 3px 0 0;
+	position: sticky;
+	background-color: gray;
+	color: rgb(213, 213, 213);
+	top: calc(1.5em + 8px);
+	text-align: left;
+}
+.reservation-details {
+	list-style: none;
+	padding: 1rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.reservation-details li {
+	display: flex;
+}
+
+.reservation-details span {
+	font-weight: bold;
+	margin-right: 0.5rem;
+}
